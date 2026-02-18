@@ -7,6 +7,8 @@
 
 This project explores **Game Engine Architecture** and **Memory Management** in C++. It implements a custom engine from the ground up, moving away from traditional OOP inheritance in favor of a data-oriented **Entity Component System (ECS)**. The simulation manages entity lifecycles, collision detection, and rendering pipelines manually.
 
+![Demo](assets/Gameplay.webp)
+
 ## Key Features
 
 * **Custom ECS Architecture:** Complete separation of Data (Components), Logic (Systems), and Identity (Entities).

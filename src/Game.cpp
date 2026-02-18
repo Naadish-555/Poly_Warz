@@ -88,7 +88,7 @@ void Game::init(const std::string& path)
 		io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
 		//io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
 		io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;           // Enable Docking
-		io.FontGlobalScale = 2.f;
+		io.FontGlobalScale = 1.5f;
 		ImGuiStyle& style = ImGui::GetStyle();
 		style.Colors[ImGuiCol_WindowBg].w = 0.5f;
 		//style.Colors[ImGuiCol_DockingEmptyBg].w = 0.f;
